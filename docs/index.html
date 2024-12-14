@@ -1,45 +1,56 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bobby LI</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>WELCOME</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido!</h1>
         <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact Me</a></li>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="about/index.html">About</a>
+                    <ul class="dropdown">
+                        <li><a href="about/index.html">Biography</a></li>
+                        <li><a href="#">More</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="thoughts/index.html">Thoughts</a>
+                    <ul class="dropdown">
+                        <li><a href="thoughts/thoughts20241215.html">thoughts20241215</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="comments/index.html">Comments</a>
+                    <ul class="dropdown">
+                        <li><a href="comments/OnQualityInArt.html">On Quality in Art</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="projects/index.html">Projects</a>
+                    <ul class="dropdown">
+                        <li><a href="projects/SubjectiveRegret.html">Subjective Regret</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact/index.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>text</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>text</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>text</p>
-        <ul>
-            <li>Email: zhuohengli20@gmail.com</li>
-            <li>GitHub: <a href="https://github.com/zhuohengli20" target="_blank">username</a></li>
-            <li>Support Me: 0xc03d29F78938e67171E12D08d397eaCD64C40d6e (Ethereum Wallet)</li>
-        </ul>
-    </section>
+    <main>
+        <section class="welcome">
+            <h1>WELCOME</h1>
+            <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <p>Hello!</p>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Bobby LI</p>
+        <p>&copy; 2024 ZHUOHENG LI. All rights reserved.</p>
     </footer>
 </body>
 </html>
